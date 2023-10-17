@@ -5,7 +5,6 @@ const initialState = {
     todos:[{id:1, text:"Hello world!"}]
 }
 
-
 // create the slice
 export const todoSlice = createSlice({
     name:'todo',
